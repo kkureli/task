@@ -1,0 +1,27 @@
+.checkOut {
+  display: flex;
+  justify-content: right;
+}
+
+.checkOutBtn {
+  padding: 1%;
+  width: 100px;
+  margin-top: 20px;
+
+  /* right: 10px; */
+}
+
+.cleanCartBtn {
+  margin-top: 20px;
+  padding: 1%;
+  width: 100px;
+}
+
+.checkOut span {
+  position: absolute;
+  right: 10px;
+}
+
+.checkOut span b {
+  font-size: 30px;
+}

@@ -1,0 +1,9 @@
+export const FETCH_SUCCESS = "FETCH_SUCCESS";
+export const STORE_BASKET_DATA = "STORE_BASKET_DATA";
+export const INCREASE_QUANTITY = "INCREASE_QUANTITY";
+export const REDUCE_QUANTITY = "REDUCE_QUANTITY";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const FILTER_BY_SIZE = "FILTER_BY_SIZE";
+export const FILTER_BY_PRICE = "FILTER_BY_PRICE";
+export const FILTER_BY_TYPE = "FILTER_BY_TYPE";
+export const SORT_BY = "SORT_BY";

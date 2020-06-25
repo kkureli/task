@@ -1,0 +1,19 @@
+.basket {
+  color: white !important;
+  font-size: 20px;
+}
+
+.basket i {
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  overflow-y: auto;
+  /* height: 350px; */
+  height: fit-content;
+}
+
+.dropdown:last-child .dropdown-menu {
+  right: 0;
+  left: auto;
+}
