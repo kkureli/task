@@ -58,7 +58,6 @@ const PriceFilter = ({
           <option value="5">$5</option>
         </Form.Control>
       </Form.Group>
-      {console.log(renderedFood)}
     </div>
   );
 };

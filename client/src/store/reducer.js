@@ -25,7 +25,6 @@ const reducer = (state = initialState, action) => {
       });
 
       let uniqueFoodTypes = [...new Set(foodTypes)];
-      console.log(action.food);
 
       return {
         ...state,
@@ -38,6 +37,15 @@ const reducer = (state = initialState, action) => {
         renderedFood: action.food ? action.food : state.renderedFood,
         data: action.payload,
         categorized: action.categorized ? true : false,
+        selections: {
+          ...state.selections,
+          selectedType:
+            state.renderedFood === action.food
+              ? state.selections.selectedType
+              : action.food === undefined
+              ? state.selections.selectedType
+              : "All",
+        },
       };
 
     case actionTypes.STORE_BASKET_DATA:
